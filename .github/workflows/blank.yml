@@ -25,4 +25,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
-          curl -s https://ip.zscaler.com/ | findstr "The request received"
+          curl -s https://ip.zscaler.com/ | grep "The request received"

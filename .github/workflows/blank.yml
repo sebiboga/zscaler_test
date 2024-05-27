@@ -13,4 +13,5 @@ jobs:
       - name: ZScaler test
         run: |
           curl -s https://ip.zscaler.com/ | grep "The request received"
-          sudo apt install net-tools libqt5dbus5 libqt5core5a libqt5sql5 libqt5sql5-sqlite libqt5webchannel5 libqt5webengine5 libqt5webenginecore5 libqt5webenginewidgets5 libqt5webkit5 libqt5webview5 libqt5widgets5 libnss3-tools  libpcap ca-certificates -y
+          sudo apt-get update
+          sudo apt-get install net-tools libqt5dbus5 libqt5core5a libqt5sql5 libqt5sql5-sqlite libqt5webchannel5 libqt5webengine5 libqt5webenginecore5 libqt5webenginewidgets5 libqt5webkit5 libqt5webview5 libqt5widgets5 libnss3-tools  libpcap ca-certificates -y
